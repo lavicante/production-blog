@@ -5,15 +5,16 @@
         "noImplicitAny": true,
         "module": "ESNext",
         "target": "es5",
-        "jsx": "react",
+        "jsx": "react-jsx",
         "allowJs": true,
         "moduleResolution": "node",
         "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
     },
     "ts-node": {
         "compilerOptions": {
             "module": "CommonJS"
         }
-    }
+    },
 }
