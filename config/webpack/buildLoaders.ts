@@ -28,5 +28,10 @@ export const buildLoaders = ({ isDev }: BuildConfig): webpack.RuleSetRule[] => {
     ],
   };
 
-  return [tsLoader, styleLoader];
+  const fonts = {
+    test: /\.(woff|woff2|eot|ttf|otf)$/i,
+    type: "asset/resource",
+  };
+
+  return [tsLoader, styleLoader, fonts];
 };

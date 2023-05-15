@@ -1,10 +1,19 @@
 import { createRoot } from "react-dom/client";
 import { App } from "./App";
-import "./styles.scss";
+import "./styles/index.scss";
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import { ThemeProvider } from "./theme/ThemeProvider";
 
 // Render your React component instead
 const el = document.getElementById("root");
 if (el) {
   const root = createRoot(el);
-  root.render(<App />);
+  root.render(
+    <BrowserRouter>
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
+    </BrowserRouter>
+  );
 }

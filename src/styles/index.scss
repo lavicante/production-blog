@@ -1,0 +1,22 @@
+@import "reset";
+@import "variables/global";
+@import "fonts";
+@import "theme/dark";
+@import "theme/normal";
+
+body {
+  background-color: var(--bg-color);
+  font: var(--font-m);
+  color: var(--primary-color);
+}
+
+.app {
+  height: 100vh;
+}
+
+.btn {
+  background-color: var(--secondary-color);
+  border: none;
+  padding: 20px;
+  color: var(--primary-color);
+}
