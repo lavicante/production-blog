@@ -1,5 +1,5 @@
 import React from "react";
-import { classNames } from "../../utils/classNames/classNames";
+import { classNames } from "shared/lib/classNames/classNames";
 
 const About = () => {
   return (
