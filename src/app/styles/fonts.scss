@@ -1,0 +1,23 @@
+/* Обычный */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Inter"),
+    url("./app/assets/fonts/Inter-Regular.woff2") format("woff2"),
+    url("./app/assets/fonts/Inter-Regular.woff") format("woff"),
+    url("./app/assets/fonts/Inter-Regular.ttf") format("ttf"),
+    url("./app/assets/fonts/Inter-Regular.eot") format("eot");
+}
+
+/* Жирный */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Inter"),
+    url("./app/assets/fonts/Inter-Bold.woff2") format("woff2"),
+    url("./app/assets/fonts/Inter-Bold.woff") format("woff"),
+    url("./app/assets/fonts/Inter-Bold.ttf") format("ttf"),
+    url("./app/assets/fonts/Inter-Bold.eot") format("eot");
+}
